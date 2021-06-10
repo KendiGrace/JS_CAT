@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAT</title>
+</head>
+<body>
+    <!-- creating a form that will take in the users input -->
+    <form>
+        <div id="QUIZ">
+            <h1> QUIZ </h1>
+            <label>NAME: </label>
+            <input type="text" id="name" placeholder="Enter  Name" name="name" required>
+            <label>CLASS : </label>
+            <input type="text" id="class" placeholder="Enter Class" name="class" required>
+            <label>SUBJECT: </label>
+            <input type="text" id="subject" placeholder="Enter Subject" name="location" required>
+            <label>DATE : </label>
+            <input type="date" id="start" name="QUIZ DATE" value="2021-06-10" max="2021-06-15">
+            <button id="Submit" type="submit">Get results</button>
+            <div id="toast">Some text some message..</div>
+
+            <!-- linking my html to my javascript -->
+    <script src="cat.js"></script>
+</body>
+</html>
