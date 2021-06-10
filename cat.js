@@ -46,6 +46,8 @@ console.log(getDetails())
 
 //QUESTION 2
 // creating an object...has keys and values
+// we are supposed to store our object in a variable so that we can be able to access it,and give it properties..keys and values.
+// curly braces are used to enclose the properties of the object
 let student={
     name:"Grace",
     age:23,
